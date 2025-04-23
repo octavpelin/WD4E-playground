@@ -1,0 +1,8 @@
+footer {
+    background-image: url('../images/huron_river_cascades.JPG');
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
