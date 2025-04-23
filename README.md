@@ -5,3 +5,4 @@
 
 ## CSS Course
 * [Homework 1](./hw1/index.html)
+* [Homework 2](./hw2/index.html)
