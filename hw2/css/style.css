@@ -1,6 +1,5 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 150%;
 }
 
 header {
@@ -8,12 +7,21 @@ header {
 }
 
 nav {
-    background-color: rgb(50, 68, 65);
+    /* background-color: rgb(50, 68, 65); */
+    display: inline-block;
+    width: 80%;
+}
+
+nav ~ img {
+    width: 10%;
+    position: relative;
+    top: 20px;
 }
 
 main {
-    background-color: rgb(239, 248, 240);
-    font-size: 80%;
+    background-color: rgb(226, 250, 141);
+    /* font-size: 80%; */
+    font-size: 150%;
 }
 
 footer {
@@ -21,21 +29,12 @@ footer {
 }
 
 li {
-    display: inline-block;
-    width: 25%;
-}
-
-li a {
-    text-decoration: none;
-    color: white;
-    margin-left: 1em;
+    display: inline;
+    padding-left: 1em;
 }
 
 h1 {
-    text-align: right;
-    display: block;
-    float: right;
-    margin-top: 120px;
+    text-align: center;
     margin-right: 0.5em;
     font-family: cursive;
     color: rgb(68, 54, 54);
@@ -43,4 +42,22 @@ h1 {
 
 p {
     line-height: 1.5em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-evenly;
+    align-items: anchor-center;
+    row-gap: 2em;
+}
+
+.grid-container img {
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
