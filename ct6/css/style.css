@@ -1,0 +1,89 @@
+body {
+    background-color: #dedede;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
+
+p {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+p {
+    text-align: center;
+}
+
+div {
+    display: inline-block;
+}
+
+/* Style all of the div border */
+
+/* div {
+    border: 8px solid black;
+} */
+
+/* div img {
+    border: 8px solid black;
+} */
+
+/* div:nth-child(odd) {
+    border: 8px solid black;
+} */
+
+/* div:nth-child(odd) img {
+    border: 8px solid black;
+} */
+
+/* div:nth-child(even) {
+    border: 8px solid black;
+} */
+
+/* div:nth-child(3n) {
+    border: 8px solid black;
+} */
+
+/* div:nth-child(2n) {
+    border: 8px solid black;
+} */
+
+/* div:nth-child(3n + 2) {
+    border: 8px solid black;
+} */
+
+/* Style each column differently */
+div:nth-child(3n + 1) {
+    border: 8px solid blue;
+}
+
+div:nth-child(3n + 2) {
+    border: 8px dashed black;
+    position: relative;
+    top: 200px;
+}
+
+div:nth-child(3n + 3) {
+    border: 8px solid green;
+    position: relative;
+    top: -25px;
+}
+
+/* Remove the border on hover */
+div:hover {
+    border-style: none;
+}
