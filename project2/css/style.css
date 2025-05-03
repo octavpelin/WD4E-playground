@@ -130,3 +130,11 @@ h1 {
     background: url('../images/freenaturestock-337.jpeg') center/cover no-repeat;
     background-attachment: fixed;
 }
+
+#main-camera {
+    float: right;
+}
+
+#main-camera + h1 {
+    display: inline;
+}
