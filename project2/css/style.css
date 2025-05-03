@@ -133,6 +133,7 @@ h1 {
 
 #main-camera {
     float: right;
+    width: 20%;
 }
 
 #main-camera + h1 {
