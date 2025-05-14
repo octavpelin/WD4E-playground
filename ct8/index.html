@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Together 8</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <section id="part1">
+        <h1>Modify the DOM</h1>
+        <button onclick="document.getElementById('stuff').innerHTML = 'Clicked First Button';">First</button>
+        <button onclick="document.getElementById('stuff').innerHTML = 'Clicked Another Button';">Third</button>
+        <p>This code shouldn't change.</p>
+        <p id="stuff">This will change.</p>
+        <p>This shouldn't change either.</p>
+    </section>
+    <section id="part2">
+        <h1>Changing the style</h1>
+        <p>JavaScript can change the style of an HTML element.</p>
+
+        <button type="button" onclick="openMe()">Open!</button>
+        <button type="button" onclick="closeMe()">Close!</button>
+
+        <p id="demo">Extra details... You can open and close this paragraph using the buttons above.</p>
+    </section>
+</body>
+</html>
