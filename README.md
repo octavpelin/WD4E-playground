@@ -14,3 +14,6 @@
 * [Code Together 6](./ct6/index.html)
 * [Code Together 7](./ct7/index.html)
 * [Final Project 2](./project2/index.html)
+
+## Javascript Course
+* [Homework 3](./hw3/index.html)
