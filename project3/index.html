@@ -6,17 +6,28 @@
 	<link rel="stylesheet" href="css/gallery.css">
 	<script src = "js/gallery.js"></script>
 </head>
-<body>
-	
-	<div id = "image">
-		Hover over an image below to display here.
-	</div>
-	
-	<img class = "preview" alt = "Styling with a Bandana" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()">
-	
-	<img class = "preview" alt = "With My Boy" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG" onmouseover = "upDate(this)" onmouseout = "unDo()">
-	
-	<img class = "preview" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg" alt = "Young Puppy" onmouseover = "upDate(this)" onmouseout = "unDo()">
-
+<body onload="galleryLoader()">
+	<header>
+		<h1>Photo Gallery</h1>
+	</header>
+	<main>
+		<div id = "image">
+			Hover over an image below to display here.
+		</div>
+		<div class="flex">
+			<img class = "preview" src="images/freenaturestock-1781.jpg" alt="Winter dusting of snow in the Alps"
+				onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur = "unDo()" width="100">
+			<img class = "preview" src="images/freenaturestock-1893.jpg" alt="Autumn Colourful Mountain in the Appalachia"
+				onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur = "unDo()" width="100">
+			<img class = "preview" src="images/freenaturestock-1915.jpg" alt="Winter Weather in the Carpathians"
+				onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur = "unDo()" width="100">
+			<img class = "preview" src="images/freenaturestock-1918.jpg" alt="Rolling Clouds and Mountains in the Alps"
+			onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur = "unDo()" width="100">
+			<img class = "preview" src="images/freenaturestock-2127.jpg" alt="Misty Rocky Cliff in the Carpathians"
+			onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur = "unDo()" width="100">
+			<img class = "preview" src="images/freenaturestock-2281.jpg" alt="Snowy Winter in the Carpathians"
+			onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur = "unDo()" width="100">
+		</div>
+	</main>
 </body>
 </html>
