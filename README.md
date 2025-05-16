@@ -17,3 +17,7 @@
 
 ## Javascript Course
 * [Homework 3](./hw3/index.html)
+* [Code Together 8](./ct8/index.html)
+* [Code Together 9](./ct9/index.html)
+* [Code Together 10+11](./ct10/index.html)
+* [Final Project 3](./project3/index.html)
