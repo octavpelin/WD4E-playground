@@ -5,6 +5,7 @@ function galleryLoader() {
     for (let ix = 0; ix < allPreviews.length; ix++) {
         console.log('Image alt: ' + allPreviews[ix].alt);
         allPreviews[ix].setAttribute('tabindex', '0');
+        allPreviews[ix].setAttribute('aria-label', allPreviews[ix].alt);
     }
 }
 
